@@ -1,22 +1,21 @@
-.input_search{
-    padding: 0.5rem;
-    margin: 0.5rem;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    border: 1px solid #919191;
+.input_search {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #919191;
 }
 
-.button_search{
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    border: 1px solid #cfcfcf;
-    background-color: #4a4a4a;
-    color: white;
-    font-size: 1rem;
-    cursor: pointer;
+.button_search {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cfcfcf;
+  background-color: #4a4a4a;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
-
-.button_search:hover{
-    background-color: #7b7b7b;
+.button_search:hover {
+  background-color: #7b7b7b;
 }
