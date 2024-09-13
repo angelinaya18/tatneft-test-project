@@ -1,11 +1,18 @@
 import './App.css'
+import { useState, useEffect } from 'react';
+import Users from './data/Users.json'
+import UsersList from './components/UsersList/UsersList'
 
-function App() {
+export default function App() {
+  const [userItems, setuserItems] = useState([]);
+
+  useEffect(() => {
+    setuserItems(Users);
+  }, []);
 
   return (
     <>
+      <UsersList users={userItems}/>
     </>
   )
 }
-
-export default App
